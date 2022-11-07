@@ -23,6 +23,9 @@ console_error_panic_hook = { version = "0.1.6", optional = true }
 # compared to the default allocator's ~10K. It is slower than the default
 # allocator, however.
 wee_alloc = { version = "0.4.5", optional = true }
+wasm-bindgen-futures = "0.4.33"
+wiki = { git = "https://github.com/fee1-dead/wiki.git" }
+getrandom = { version = "0.2.8", features = ["js"] }
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.13"
